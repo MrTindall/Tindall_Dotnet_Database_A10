@@ -38,12 +38,6 @@ namespace EFTutorial
                             foreach (var myBlog in context.Blogs)
                             {
                                 Console.WriteLine($"{myBlog.BlogId}, {myBlog.Name}");
-
-                                //Console.WriteLine("The posts are: ");
-                                //foreach (var post in myBlog.Posts)
-                                //{
-                                //    Console.WriteLine(post.Title);
-                                //}
                             }
                             Console.WriteLine();
                         }
